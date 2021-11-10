@@ -29,3 +29,4 @@ print(time.localtime());"
 
 conda deactivate 
 /data/src/PyHipp/envlist.py $envarg
+aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:785788241387:awsnotify --message "RPLhighpass-sortJobDone"
